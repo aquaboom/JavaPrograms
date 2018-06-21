@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">AssistiveTechAndroidApp</string>
+    <string name="welcome_note">Welcome to Main Page</string>
+    <string name="desc">To practice mathematical questions</string>
+    <string name="WelcomePageButtonTitle">Main menu</string>
+    <string name="factorizeButtonTitle">Factorize</string>
+    <string name="ReadButtonTitle">Read</string>
+    <string name="NextButtonTitle">Next</string>
+    <string name="SimplifyTerm">Do you want to simplify any term?</string>
+    <string name="numerator">x^2+6x+9</string>
+    <string name="denominator">x+3</string>
+    <string name="None">None of the above</string>
+    <string name="SubmitButtonTitle">Submit</string>
+
+</resources>

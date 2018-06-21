@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="dataelements">
+        <item>Chapter 1
+            <subitem>Prealgebra Review</subitem></item>
+        <item>Chapter 2
+            <subitem>Real Numbers </subitem></item>
+        <item>Chapter 3
+            <subitem>Equations, Inequalities and Problem Solving</subitem></item>
+        <item>Chapter 4
+            <subitem>Graphing Equations and Inequalities </subitem></item>
+        <item>Chapter 5
+            <subitem>System of Equations </subitem></item>
+        <item>Chapter 6
+            <subitem>Exponents and  Polynomials </subitem></item>
+        <item>Chapter 7
+            <subitem>Factoring Polynomials </subitem></item>
+        <item>Chapter 8
+            <subitem>Rational Expressions</subitem></item>
+        <item>Chapter 9
+            <subitem>Graphs and Functions </subitem></item>
+        <item>Chapter 10
+            <subitem>System of Equations and Inequalities and Variation </subitem></item>
+        <item>Chapter 11
+            <subitem>Rational Exponents, Radicals, and Complex Numbers </subitem></item>
+        <item>Chapter 12
+            <subitem>Quadratic Equations and Functions </subitem></item>
+        <item>Chapter 13
+            <subitem>Exponential and Logarithmic Functions </subitem></item>
+        <item>Chapter 14
+            <subitem>Conic Section </subitem></item>
+
+    </string-array>
+</resources>

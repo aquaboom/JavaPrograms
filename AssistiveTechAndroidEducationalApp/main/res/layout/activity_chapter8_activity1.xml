@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.auburnuniversity.www.logansproject.Chapter8_activity1">
+
+
+    <RelativeLayout
+        android:layout_width="395dp"
+        android:layout_height="587dp"
+        tools:layout_editor_absoluteX="6dp"
+        tools:layout_editor_absoluteY="12dp">
+
+        <Button
+            android:id="@+id/Read"
+            android:layout_width="136dp"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/textView3"
+            android:layout_alignParentStart="true"
+            android:layout_gravity="center"
+            android:layout_marginBottom="107dp"
+            android:layout_marginStart="32dp"
+            android:background="@color/colorOrange"
+            android:text="@string/ReadButtonTitle"
+            android:textSize="18sp"
+            tools:layout_editor_absoluteX="55dp"
+            tools:layout_editor_absoluteY="97dp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="162dp"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/Read"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="78dp"
+            android:layout_weight="0.02"
+            android:padding="10dp"
+            android:text=""
+            android:textColor="@android:color/black"
+            android:textSize="24sp"
+            tools:layout_editor_absoluteX="124dp"
+            tools:layout_editor_absoluteY="218dp" />
+
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="69dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView10"
+            android:layout_marginTop="14dp"
+            android:layout_toStartOf="@+id/button4"
+            android:layout_weight="0.04"
+            android:padding="10dp"
+            android:text=""
+            android:textColor="@android:color/black"
+            android:textSize="24sp"
+            tools:layout_editor_absoluteX="171dp"
+            tools:layout_editor_absoluteY="312dp" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="136dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/Read"
+            android:layout_alignBottom="@+id/Read"
+            android:layout_alignParentEnd="true"
+            android:layout_gravity="center"
+            android:layout_marginEnd="39dp"
+            android:background="@color/colorOrange"
+            android:padding="10dp"
+            android:text="@string/factorizeButtonTitle"
+            android:textSize="18sp"
+            tools:layout_editor_absoluteX="232dp"
+            tools:layout_editor_absoluteY="97dp" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/Read"
+            android:layout_below="@+id/textView3"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="13dp"
+            android:text="___________________________________"
+            android:textColor="@android:color/black" />
+
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>
